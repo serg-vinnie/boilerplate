@@ -7,7 +7,7 @@ import XCTest
 import boilerplateMacros
 
 let testMacros: [String: Macro.Type] = [
-    "stringify": StringifyMacro.self,
+    "ninjaModel": NinjaModelMacro.self,
 ]
 #endif
 
