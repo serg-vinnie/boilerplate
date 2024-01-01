@@ -1,7 +1,6 @@
 
-protocol ExecutionContext {}
-protocol ReleasePoolOwner {}
-protocol ObservableObject {}
+import AsyncNinja
+import SwiftUI
 
 @attached(extension, conformances: ExecutionContext, ReleasePoolOwner, ObservableObject)
 @attached(member, names: named(executor), named(releasePool))
